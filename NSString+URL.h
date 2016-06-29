@@ -8,8 +8,6 @@
 
 #import <Foundation/Foundation.h>
 
-@interface NSString (Extension)
-+ (NSMutableAttributedString *)createAttributedString:(NSString *)string andAttributedDictionary:(NSDictionary *)attrDict;
-- (BOOL)isEmpty;
+@interface NSString (URL)
 - (NSString*)urlEncode;
 @end
